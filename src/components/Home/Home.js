@@ -3,10 +3,11 @@ import Review from '../Review/Review';
 import Reviews from '../Reviews/Reviews';
 
 const Home = () => {
+    
     return (
         <div>
             <h1>This is home</h1>
-            <div className='flex justify-between items-center px-8 bg-green-100'>
+            <div className='flex justify-between items-center px-8 bg-green-200'>
             <div className='site-description'>
                 <h1 className='text-6xl font-bold'>Your watch 
                 <span className='text-green-600 block'>
@@ -27,7 +28,7 @@ const Home = () => {
             <h2 className='mt-8 text-3xl font-bold'>Customer Reviews</h2>
             <Review></Review>
 
-            <button className='bg-green-800 rounded px-4 py-2 mt-8 text-white font-bold'>See All Reviews</button>
+            <button className='bg-green-800 rounded px-4 py-2 my-8 text-white font-bold'>See All Reviews</button>
         </div>
 
         </div>

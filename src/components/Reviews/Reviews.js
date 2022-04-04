@@ -3,7 +3,6 @@ import UseData from '../../Hooks/UseData';
 import Review from '../Review/Review';
 
 const Reviews = () => {
-    const [data, setData]= UseData();
 
     return (
         <div>

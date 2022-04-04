@@ -4,9 +4,10 @@ import UseData from '../../Hooks/UseData';
 const Review = () => 
 {
     const [data , setData] = UseData();
+
     return (
         <div>
-            <div class="grid grid-cols-3 gap-4 py-4 px-8">
+            <div class="grid grid-cols-3 m-4 gap-4 p-4 border-2  border-green-400 rounded-lg">
             {
                 data.map(data =>
                     <div className='h-48 bg-green-200 p-4 rounded-lg shadow-lg'>
