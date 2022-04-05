@@ -3,7 +3,8 @@ import UseData from '../../Hooks/UseData';
 
 const Review = () => 
 {
-    const [data , setData] = UseData();
+    const url= 'comments.json';
+    const [data , setData] = UseData(url);
 
     return (
         <div>

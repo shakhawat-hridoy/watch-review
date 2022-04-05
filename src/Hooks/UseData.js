@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react"
 
-const UseData=()=>{
+const UseData=(url)=>{
     const [data,setData]= useState([]);
 
     useEffect(()=>{
-        fetch('comments.json')
+        fetch(url)
         .then(res=>res.json())
         .then(data=>setData(data));
     },[])

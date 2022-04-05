@@ -1,8 +1,16 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Review from '../Review/Review';
 import Reviews from '../Reviews/Reviews';
+import TopComments from '../TopComments/TopComments';
 
 const Home = () => {
+    const navigate =  useNavigate();
+
+    const showReviews =()=>{
+        const path="/reviews";
+        navigate(path);
+    }
     
     return (
         <div>
@@ -26,9 +34,10 @@ const Home = () => {
 
         <div>
             <h2 className='mt-8 text-3xl font-bold'>Customer Reviews</h2>
-            <Review></Review>
+            <TopComments></TopComments>
+            {/* <Review></Review> */}
 
-            <button className='bg-green-800 rounded px-4 py-2 my-8 text-white font-bold'>See All Reviews</button>
+            <button onClick={showReviews} className='bg-green-800 rounded px-4 py-2 my-8 text-white font-bold'>See All Reviews</button>
         </div>
 
         </div>
