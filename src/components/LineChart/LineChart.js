@@ -4,6 +4,7 @@ import { CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, X
 const MyLineChart = (props) => {
     const data= props.chartData;
     return (
+             <div className='border-2  border-green-200 rounded-lg p-4 shadow-lg'>
                 <LineChart width={500} height={300} data={data}>
 
                 <Line type="monotone" dataKey="revenue" stroke="#8884d8" activeDot={{ r: 8 }} />
@@ -14,6 +15,7 @@ const MyLineChart = (props) => {
                 <Tooltip></Tooltip>
                 <Legend></Legend>
                 </LineChart>
+           </div>
     );
 };
 

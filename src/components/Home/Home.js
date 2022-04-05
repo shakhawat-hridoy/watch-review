@@ -17,11 +17,11 @@ const Home = () => {
             <div className='flex justify-between items-center p-8'>
             <div className='w-3/4'>
                 <h1 className='text-6xl font-bold'>Your watch 
-                <span className='text-green-600 block'>
+                <span className='text-green-700 block'>
                 Your review
                 </span></h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati laborum porro beatae quibusdam debitis.
+                <p className='mt-4'>
+                    Welcome to the biggest ever smart watch lover community in bangladesh. You can know about the latest models available in the market in recent times and also can see the authentic user reviews here. We hope that you will be able to select the best product with the help of our valuable reviews.   
                 </p>
                 <button className='bg-green-800 rounded px-4 py-2 mt-8 text-white font-bold'>Live Demo</button>
             </div>
@@ -32,9 +32,8 @@ const Home = () => {
         </div>
 
         <div>
-            <h2 className='mt-8 text-3xl font-bold'>Customer Reviews</h2>
+            <h2 className='mt-16 text-3xl text-green-900 font-bold'><u>Customer Reviews</u></h2>
             <TopComments></TopComments>
-            {/* <Review></Review> */}
 
             <button onClick={showReviews} className='bg-green-800 rounded px-4 py-2 my-8 text-white font-bold'>See All Reviews</button>
         </div>
