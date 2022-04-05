@@ -11,12 +11,12 @@ const Review = () =>
             <div class="grid grid-cols-3 m-4 gap-4 p-4 border-2  border-green-400 rounded-lg">
             {
                 data.map(data =>
-                    <div className='h-48 bg-green-200 p-4 rounded-lg shadow-lg'>
+                    <div className='bg-green-50 p-4 rounded-lg shadow-lg'>
                         <div>
+                            <img className='h-24 w-24 mb-4 rounded-full mx-auto' src={data.image} alt="" />
                         <h3 className='text-lg font-bold'> {data.name}</h3>
-
                         <p className='mt-4'>{data.comment}</p>
-                        <p>Ratting : <span className='font-bold'>{data.ratting}</span></p>
+                        <p>Ratting : <span className='font-bold'>{data.ratting}/5</span></p>
                     </div>
                     </div>
                     

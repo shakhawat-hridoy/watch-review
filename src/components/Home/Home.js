@@ -14,9 +14,8 @@ const Home = () => {
     
     return (
         <div>
-            <h1>This is home</h1>
-            <div className='flex justify-between items-center px-8 bg-green-200'>
-            <div className='site-description'>
+            <div className='flex justify-between items-center p-8'>
+            <div className='w-3/4'>
                 <h1 className='text-6xl font-bold'>Your watch 
                 <span className='text-green-600 block'>
                 Your review
@@ -27,8 +26,8 @@ const Home = () => {
                 <button className='bg-green-800 rounded px-4 py-2 mt-8 text-white font-bold'>Live Demo</button>
             </div>
 
-            <div className='site-image h-96'>
-                <img className='h-full w-full bg-green-100' src="watch-bg.png" alt="" />
+            <div className='w-1/4 mr-16'>
+                <img className='' src="https://www.mytrendyphone.eu/images/Waterproof-Smartwatch-with-Heart-Rate-K12-IP68-Bluetooth-4-Black-10092020-01A-p.jpg" alt="" />
             </div>
         </div>
 

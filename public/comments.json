@@ -1,44 +1,44 @@
 [
     {
         "id":1,
-        "image": "",
+        "image": "https://randomuser.me/api/portraits/men/86.jpg",
         "name": "Ruhul Amin",
         "comment": "This Watch is really great",
-        "ratting": "4.8/5"
+        "ratting": 4.8
     },
     {
         "id":2,
-        "image": "",
+        "image": "https://randomuser.me/api/portraits/men/47.jpg",
         "name": "Nadir Mahmud",
         "comment": "Satisfied with this product",
-        "ratting": "4.5/5"
+        "ratting": 4.5
     },
     {
         "id":3,
-        "image": "",
+        "image": "https://randomuser.me/api/portraits/men/40.jpg",
         "name": "Habibul Bashar",
         "comment": "Could Have been better",
-        "ratting": "3.8/5"
+        "ratting": 3.8
     },
     {
         "id":4,
-        "image": "",
+        "image": "https://randomuser.me/api/portraits/men/34.jpg",
         "name": "Sheikh Piash",
         "comment": "As expected. Thank you for that amazing thing",
-        "ratting": "4.9/5"
+        "ratting": 4.9
     },
     {
         "id":5,
-        "image": "",
+        "image": "https://randomuser.me/api/portraits/men/61.jpg",
         "name": "Azizul Karim",
         "comment": "Beautiful item,Recomended",
-        "ratting": "5/5"
+        "ratting": 5
     },
     {
         "id":6,
-        "image": "",
+        "image": "https://randomuser.me/api/portraits/men/44.jpg",
         "name": "Azim Khan",
         "comment": "Very good product.Keep it up.",
-        "ratting": "4.8/5"
+        "ratting": 4.8
     }
 ]
